@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(./assiste/m.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 105.1rem;
+    opacity:0.9;
+    background-position: right;
+    background-color: black;
+    height: 28rem;
+}
+.box1{
+    margin-left: 20rem;
+}
+
+.A,h1{
+    font-size: 60px;
+    color:white;
+    margin-bottom:3rem;
+    font-weight: lighter;
+}
+u{
+    color: skyblue;
+}
+.under{
+    border-bottom: 5px solid skyblue;
+    height:30px;
+}
+.B,p{
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: lighter;
+}
+input{
+    width: 95%;
+    height: 100%;
+    display: block;
+    border-radius: 40px;
+    box-shadow: inset -3px -3px rgb(0,0,0,0.5);
+    background-color: rgb(0,0,0,0.5);
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 30px 25px;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    
+    
+}
+button{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width:50px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.3rem;
+    /* margin-left: 8rem; */
+    
+}   
+.C{
+    position: relative;
+    border-radius: 25px;
+    width:800px;
+   
+}
