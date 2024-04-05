@@ -1,9 +1,10 @@
+/* -----------------------------------------------------------------first dection start------------------------------------------------------------------------- */
 .main_AI_helps{
     background-color: black;
     color:white;
 } 
 .main_AI_helps1{
-    /* border:2px solid red; */
+    /* border:2px solid rgb(223, 15, 15); */
     padding:0 16rem 0 16rem;
 }
 .AI_BOX1{
@@ -55,13 +56,59 @@ button{
 span{
     color: rgb(4, 160, 4);
 }
+ /* ---------------------------------------------------------------------------first section end--------------------------------------------------------------- */
 
+ /* --------------------------------------------------------------------------secon section start -----------------------------------------------------------*/
 
+ .AI_BOX2{
+ /* border:2px solid pink; */
+ display: flex;
+ justify-content: center;
+ background-color: #313131;
+}
+.AI-box2_child{
+    /* border:2px solid rgb(131, 199, 23); */
+    width:60rem;
+    
+}
 
+.itmes-box-child{
+    /* border:2px solid orange; */
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    text-align: center;
+    font-size:1.3rem;
+}
+.items img{
+    height: 100px;
+}
+.headernav h2{
+    font-size:2.2rem;
+    padding:0 0 0 4rem;
+}
 
 
+/*---------------------------------- third div start ----------------------------*/
 
+.AI_BOX3{
+  border:2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+.AI_BOX3_child{
+    border:2px solid rgb(255, 51, 0);
+    width:40rem;
 
+}
+.AI_BOX3_sub-child1{
+    border:2px solid rgb(0, 255, 13);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 
 
 
@@ -139,165 +186,14 @@ span{
 
 
 
+ /*----------------------------------- third div end -------------------------- */
 
 
+/*------------------------------------------------------------------ second section end-------------------------------------------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------------------------------------------------------------footer start ----------------------------------------------------------------------*/
 .main_footer{
-    background-color: rgb(78, 77, 77);
+    background-color: #313131;
     padding: 2rem 16rem 2rem 16rem;
     /* background-color: black; */
     color :rgb(228, 226, 224);
@@ -376,4 +272,4 @@ pre{
     color: white;
     /* border: 50%; */
 }
-  
+ /* ----------------------------------------------------------------------------footer end -------------------------------------------------------------- */
