@@ -3,46 +3,33 @@
          padding: 0;
          box-sizing: border-box;
          font-family: Arial, Helvetica, sans-serif;
-         /* font-family: "Montserrat", sans-serif; */
          font-family: "Open Sans", sans-serif;
 }
 
 main{
-         border: 2px solid green;
          background-color:#1b1b1b;
          padding: 2% 22%;
-         color: white;
-                 
+         color: white;             
 }
 
 a{
          text-decoration: none;
          color: inherit;
-         /* color: white; */
 }
 
-.featuredMain{
-         border: 2px solid red;
-
-}
-
-.fBox{
-         border: 2px solid yellow;
-}
-
-.reMain{
-         border: 2px solid purple;
+#Featured{
+         margin-bottom: 2rem;
+         font-size: 1.5rem;
+         font-weight: 400;
 }
 
 .GreyBar{
-         background-color:#2e2d2d ;
-         /* margin-top: 8px; */
+         background-color:#313131 ;
 }
 
 .Bar{
-         /* border: 2px solid green; */
          border-radius: 5px;
-         padding: 10px;
+         padding: 12px;
          display: flex;
          justify-content: space-between;
          align-items: center;
@@ -72,3 +59,39 @@ a:hover {
          font-size: 1.4rem;
 }
 
+.featuredMain{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         row-gap: 1em;
+         column-gap: 1em;
+         
+}
+
+.fBox{
+         border: 1px solid #858585;
+         border-radius: 10px;        
+         padding: 1.2rem;
+         display: flex;
+         flex-direction: column;        
+}
+.first{
+         height: 1.4rem;
+         font-weight: 600;
+         font-size: 0.9em;
+         margin-bottom: 8px;
+}
+.second{
+         height: 3rem;
+         font-weight: 500;
+         font-size: 18px;
+         margin-bottom: 10px;
+}
+.text{
+         height: 4.3rem;
+         font-size: 16px;
+         font-weight: 500;
+         overflow:hidden;
+}
+span{
+         mask-image: linear-gradient(90deg, transparent, #000 100%);
+}
