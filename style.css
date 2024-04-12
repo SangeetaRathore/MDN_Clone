@@ -52,7 +52,7 @@ input{
     
     
 }
-button{
+.button{
     position:absolute;
     top: 0;
     right: 0;
@@ -70,13 +70,13 @@ button{
     border-radius: 25px;
     width:800px;
 }
-a{
+.tag{
     color: #CDCDCD;
     font-size:1.3rem;
     text-decoration: none;
     position: relative;
 } 
-a::after{
+.tag::after{
     content:'';
     height: 1px ;
     width: 100%;
@@ -89,7 +89,7 @@ a::after{
     transition:0.2s;
 
 }
-a:hover::after{
+.tag:hover::after{
     opacity: 1;
 }    
 .container{
@@ -173,11 +173,11 @@ header{
     font-size:1.5rem;
     margin-top:0.7rem;
 }
-.about-curriculum{
+#about-curriculum{
     font-size: 2.3rem;
     margin-left: 4rem;
     color: white;
-
+    text-decoration: none;
 }
 .about{
     background-color: #343434;
@@ -228,7 +228,7 @@ header{
 #modules{
     background-color: black;
     padding: 6rem ;
-    height: 1600px;
+    height: 1700px;
 }
 #heading{
     color: white;
@@ -295,7 +295,55 @@ hr.new1{
     margin-left: 7.5rem;   
     margin-bottom: 2rem; 
     margin-top: 1rem; 
-}         
+} 
+.core21{
+    color:#CDCDCD;
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    padding:0.7rem;
+    font-size:27px;
+    background-color:#3c4b7e;
+    margin-left: 7.5rem;   
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
+}
+.core22{
+    color:#CDCDCD;
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    padding:1.1rem;
+    font-size:27px;
+    background-color: #8a7041;
+    margin-left: 7.5rem;   
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
+}
+.core23{
+    color:#CDCDCD;
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    padding:1.1rem;
+    font-size:27px;
+    background-color:#513169;
+    margin-left: 7.5rem;   
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
+}  
+.core24{
+    color:#CDCDCD;
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    padding:1.1rem;
+    font-size:27px;
+    background-color: #2f633a;
+    margin-left: 7.5rem;   
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
+}                  
 .core3{
     color: white;
     font-size: 1.3rem;
@@ -310,7 +358,7 @@ hr.new1{
 .core5{
     color:#CDCDCD;
     font-size:10px;
-
+    text-decoration: none;
 }
 .stander{
     font-size:1.2rem;
@@ -320,6 +368,104 @@ hr.new1{
     font-size:1.2rem;
     margin-bottom:3.5rem;
     color: #F2919C;
+    text-decoration: none;
+}    
+.stander3{
+    font-size:1.2rem;
+    margin-bottom:3.5rem;
+    color:#91A6F2;
+    text-decoration: none;
+}  
+.stander4{
+    font-size:1.2rem;
+    margin-bottom:3.5rem;
+    color: #F2CF8F;
+    text-decoration: none;
+} 
+.stander5{
+    font-size:1.2rem;
+    margin-bottom:3.5rem;
+    color:#C891F2;
+    text-decoration: none;
+}    
+.stander6{
+    font-size:1.2rem;
+    margin-bottom:3.5rem;
+    color: #8FF2A4;
+    text-decoration: none;
+}  
+.begin{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size:16px;
+} 
+.begin:hover{
+    background-color: #CDCDCD;
+    cursor: pointer;
+} 
+.employbility-img{
+    background-image: cover;
+    width: 100%;
 }
+.started{
+    background-color: black;
+    height: 1600px;
+}
+#coding{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: 37rem;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+
+}
+#coding:hover{
+    outline: white;
+    cursor: pointer;
+}
+.posision{
+    width:50%;
+    margin-left: 26rem;
+    margin-top: 6rem;
+    display:grid;
+    gap: 8rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.get-start{
+    display: flex;  
+}
+.theory-option{
+    width: 260px;
+    padding: 30px 10px;
+}
+.first-pera{
+    color: white;
+    font-size: 2.1rem;
+   
+}
+.seco-pera{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#918c8c;
+    font-size: 1.3rem;
+}
+.third-pera{
+    padding: 9px 4px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+#under-line{
+    border-bottom: 5px solid #E3642A;
+    margin-top:3rem;
+    height: 2rem;
+}
+.third-pera:hover{
+    background-color: #CDCDCD;
+    cursor: pointer;
+}
+
 
 
