@@ -130,80 +130,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /*----------------------------------- third div end -------------------------- */
 
 
@@ -219,6 +145,9 @@ p{
 .main_footer_1{
     display: flex;
     justify-content: space-between;
+}
+.main_footer_2{
+    font-size:0.1rem;
 }
 .footer_child_mdn{
     line-height:0.3rem;
